@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T00:23:15 IST" name="MultipleBrowserTesting" finished-at="2023-05-30T00:23:39 IST" duration-ms="24487">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T00:23:15 IST" name="EdgeTest" finished-at="2023-05-30T00:23:15 IST" duration-ms="124">
+      <class name="Selenium.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Selenium.CrossBrowser@3c77d488]" started-at="2023-05-30T00:23:15 IST" name="setup" finished-at="2023-05-30T00:23:15 IST" duration-ms="76" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Software\drivers\msedgedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Software\drivers\msedgedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:40)
+at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:70)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Selenium.CrossBrowser.setup(CrossBrowser.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="petStoreTC1()[pri:0, instance:Selenium.CrossBrowser@3c77d488]" started-at="2023-05-30T00:23:15 IST" name="petStoreTC1" finished-at="2023-05-30T00:23:15 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: C:\Software\drivers\msedgedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Software\drivers\msedgedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:40)
+at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:70)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Selenium.CrossBrowser.setup(CrossBrowser.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreTC1 -->
+      </class> <!-- Selenium.CrossBrowser -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-05-30T00:23:15 IST" name="ChromeTest" finished-at="2023-05-30T00:23:36 IST" duration-ms="21281">
+      <class name="Selenium.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Selenium.CrossBrowser@71ba6d4e]" started-at="2023-05-30T00:23:15 IST" name="setup" finished-at="2023-05-30T00:23:18 IST" duration-ms="3093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="petStoreTC1()[pri:0, instance:Selenium.CrossBrowser@71ba6d4e]" started-at="2023-05-30T00:23:18 IST" name="petStoreTC1" finished-at="2023-05-30T00:23:36 IST" duration-ms="18176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreTC1 -->
+      </class> <!-- Selenium.CrossBrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-05-30T00:23:15 IST" name="FirefoxTest" finished-at="2023-05-30T00:23:39 IST" duration-ms="24487">
+      <class name="Selenium.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Selenium.CrossBrowser@53aac487]" started-at="2023-05-30T00:23:15 IST" name="setup" finished-at="2023-05-30T00:23:20 IST" duration-ms="5058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="petStoreTC1()[pri:0, instance:Selenium.CrossBrowser@53aac487]" started-at="2023-05-30T00:23:20 IST" name="petStoreTC1" finished-at="2023-05-30T00:23:39 IST" duration-ms="19420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreTC1 -->
+      </class> <!-- Selenium.CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- MultipleBrowserTesting -->
+</testng-results>
