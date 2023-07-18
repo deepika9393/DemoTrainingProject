@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 24.972 s <<< FAILURE! - in TestSuite
-Selenium.CrossBrowser.setup[edge](0)  Time elapsed: 0.451 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 23.516 s <<< FAILURE! - in TestSuite
+Selenium.CrossBrowser.setup[edge](0)  Time elapsed: 0.634 s  <<< FAILURE!
 java.lang.IllegalStateException: The driver executable must exist: C:\Software\drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
 	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:40)

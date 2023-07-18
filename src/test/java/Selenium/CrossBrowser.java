@@ -43,14 +43,11 @@ public class CrossBrowser {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[contains(@id,'ripe')]")).sendKeys("j2ee");
 		Thread.sleep(3000);
-		driver.findElement(By.name("password")).clear();
+		driver.findElement(By.name("password")).clear(); 
 		Thread.sleep(3000);
 		driver.findElement(By.name("password")).sendKeys("j2ee");
 		Thread.sleep(3000);
 		driver.findElement(By.name("signon")).click();
 }
 }
-
-
-
 
